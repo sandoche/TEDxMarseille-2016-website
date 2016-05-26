@@ -1,11 +1,13 @@
 $icon-font-path: '../fonts/';
 
-
+// Bootstrap overriden
 @import "_variables.scss";
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+// Style elements
 @import "_header.scss";
 @import "_nav.scss";
+@import "_filling.scss";

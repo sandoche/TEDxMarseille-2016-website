@@ -1,0 +1,56 @@
+.row::before, .row::after {
+  /* the 2 underneath colored sections */
+  content: '';
+  position: fixed;
+  /* trick to remove some annoying flickering on webkit browsers */
+  width: 89.8%;
+  max-width: 1170px;
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  height: 50%;
+  z-index: -1;
+}
+
+.row::before {
+  top: 0;
+  background-color: $green !important;
+  transition: all 0.8s;
+}
+
+.row::after {
+  top: 50%;
+  background-color: $red !important;
+}
+
+.image-with {
+  width: 184px;
+}
+
+.image-1 {
+  height: 156px;
+  background-image: url("../images/01cro.png");
+  background-repeat: no-repeat;
+  width: 184px;
+}
+
+.fill-gray {
+  height: 150px;
+  background-color: $gray;
+  width: 184px;
+}
+
+.fill-gray-space {
+  height: 150px;
+  background-image: url("../images/00greyspace.png");
+  width: 184px;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.gray {
+
+}
