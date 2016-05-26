@@ -1,4 +1,4 @@
-.row::before, .row::after {
+.zone::before, .row::after {
   /* the 2 underneath colored sections */
   content: '';
   position: fixed;
@@ -12,13 +12,13 @@
   z-index: -1;
 }
 
-.row::before {
+.zone::before {
   top: 0;
   background-color: $green !important;
   transition: all 0.8s;
 }
 
-.row::after {
+.zone::after {
   top: 50%;
   background-color: $red !important;
 }
@@ -51,6 +51,12 @@
   padding-right: 0;
 }
 
-.gray {
-
+.gray::before, .gray:after {
+  background-color: $gray;
+  z-index: -2;
+  content: '';
+  position: fixed;
+  height:100%;
+  width:100%;
+  top: 0;
 }
