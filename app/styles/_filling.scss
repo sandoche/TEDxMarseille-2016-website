@@ -34,6 +34,13 @@
   width: 184px;
 }
 
+.image-2 {
+  height: 156px;
+  background-image: url("../images/02platon.png");
+  background-repeat: no-repeat;
+  width: 184px;
+}
+
 .fill-gray {
   height: 150px;
   background-color: $gray;
@@ -43,6 +50,18 @@
 .fill-gray-space {
   height: 150px;
   background-image: url("../images/00greyspace.png");
+  width: 184px;
+}
+
+.fill-white {
+  height: 150px;
+  background-color: $white;
+  width: 184px;
+}
+
+.fill-white-space {
+  height: 150px;
+  background-image: url("../images/00whitespace.png");
   width: 184px;
 }
 
@@ -66,6 +85,9 @@
   height: 456px;
 }
 
-.col-animated {
-  width: 184px;
+
+
+.white-col {
+  background-color: $white;
+  height: 456px;
 }
