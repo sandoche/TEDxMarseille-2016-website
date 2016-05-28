@@ -70,14 +70,12 @@
   padding-right: 0;
 }
 
-.gray::before, .gray:after {
+.gray {
   background-color: $gray;
-  z-index: -2;
-  content: '';
-  position: fixed;
-  height:100%;
-  width:100%;
-  top: 0;
+}
+
+.white {
+  background-color: $white;
 }
 
 .gray-col {
