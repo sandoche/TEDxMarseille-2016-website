@@ -41,12 +41,27 @@
 
 .image-2 {
   @extend .image;
-  height: 156px;
+  height: 230px;
   background-image: url("../images/02platon.png");
-  width: 184px;
 }
 
+.image-3 {
+  @extend .image;
+  height: 311px;
+  background-image: url("../images/03new.png");
+}
 
+.image-4 {
+  @extend .image;
+  height: 349px;
+  background-image: url("../images/04marie.png");
+}
+
+.image-5 {
+  @extend .image;
+  height: 386px;
+  background-image: url("../images/05steve.png");
+}
 
 // Filling
 
