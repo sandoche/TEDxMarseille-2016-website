@@ -26,6 +26,15 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6&appId=1171883139505634";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
       <nav class="navbar navbar-default navbar-fixed-top normal" role="navigation"  id="TEDx">
       <div class="container">
         <div class="navbar-header">
@@ -198,6 +207,30 @@
         </div>
     </section>
 
+    <section class="social">
+        <div class="container">
+          <div class="row">
+            <h2 class="text-center">Suivez-nous</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="fb-page" data-href="https://www.facebook.com/TEDxMarseille2016" data-tabs="timeline" data-width="480" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/TEDxMarseille2016"><a href="https://www.facebook.com/TEDxMarseille2016">TEDx Marseille</a></blockquote></div></div>
+            </div>
+            <div class="col-md-6">
+              <span style="color: #fff">//Widget twitter</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="map">
+    </section>
+
+    <footer>
+
+    </footer>
+
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -213,6 +246,8 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
     <!-- build:js scripts/plugins.js -->
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
@@ -231,6 +266,7 @@
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script src="scripts/map.js"></script>
     <!-- endbuild -->
   </body>
 </html>
