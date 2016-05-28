@@ -15,4 +15,44 @@
 
 footer {
   background-color: $gray-darker;
+
+  color: $gray-light;
+
+  p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  li
+  {
+ 	 list-style-type:none;
+  }
+
+  .links
+  {
+ 	margin-top: 20px;
+  }
+
+  ul
+  {
+  	padding-left: 0px;
+  }
+
+  li a, a
+  {
+ 	font-size: 14px;
+ 	color: $gray-lighter;
+  }
+
+  a:hover
+  {
+ 	color: $red;
+ 	text-decoration: none;
+  }
+
+
 }
