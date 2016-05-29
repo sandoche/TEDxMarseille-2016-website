@@ -114,3 +114,10 @@ padding: 0px !important;
     -ms-transition: 0.5s;
     transition: 0.5s;
 }
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: $red;
+}
