@@ -42,13 +42,14 @@ footer {
   	padding-left: 0px;
   }
 
-  li a, a
+  li a, a,  a:focus
   {
  	font-size: 14px;
  	color: $gray-lighter;
+  text-decoration: none;
   }
 
-  a:hover
+  a:hover, a:active
   {
  	color: $red;
  	text-decoration: none;
