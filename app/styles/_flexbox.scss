@@ -1,3 +1,30 @@
+/* Small devices (tablets, 768px and up) */
+@media (max-width: $screen-sm-min) {
+  .col-illustration {
+    display: none;
+  }
+
+  .col-content {
+    width: 776px;
+
+    padding: 30px;
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    p {
+      text-align: justify;
+    }
+  }
+
+}
+
+
+
 .row-flexbox {
     display: flex;
     width: 100%;

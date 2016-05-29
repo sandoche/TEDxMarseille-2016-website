@@ -1,46 +1,48 @@
 // Zone grey & blue
 
-.zone::before, .row::after {
-  /* the 2 underneath colored sections */
-  content: '';
-  position: fixed;
-  /* trick to remove some annoying flickering on webkit browsers */
-  width: 89.8%;
-  max-width: 1170px;
-  left: 50%;
-  right: auto;
-  transform: translateX(-50%);
-  height: 50%;
-  z-index: -1;
-}
+@media (min-width: $screen-sm-min) {
 
-.zone::before {
-  top: 0;
-  background-color: $green !important;
-  transition: all 1s;
-}
+  .zone::before, .row::after {
+    /* the 2 underneath colored sections */
+    content: '';
+    position: fixed;
+    /* trick to remove some annoying flickering on webkit browsers */
+    width: 89.8%;
+    max-width: 1170px;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    height: 50%;
+    z-index: -1;
+  }
 
-.zone::after {
-  top: 50%;
-  background-color: $red !important;
-}
+  .zone::before {
+    top: 0;
+    background-color: $green !important;
+    transition: all 1s;
+  }
 
-.zone.color-1::before {
-  background-color: $green !important;
-}
+  .zone::after {
+    top: 50%;
+    background-color: $red !important;
+  }
 
-.zone.color-2::before {
-  background-color: $red !important;
-}
+  .zone.color-1::before {
+    background-color: $green !important;
+  }
 
-.color-1-text {
-  color: $green !important;
-}
+  .zone.color-2::before {
+    background-color: $red !important;
+  }
 
-.color-2-text {
-  color: $red !important;
-}
+  .color-1-text {
+    color: $green !important;
+  }
 
+  .color-2-text {
+    color: $red !important;
+  }
+}
 
 // Images settings
 
