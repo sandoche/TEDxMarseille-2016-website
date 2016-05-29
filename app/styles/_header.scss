@@ -6,5 +6,10 @@ header {
 }
 
 .header-title {
-  padding-top: 80vh;
+  padding-top: 75vh;
+
+  p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 3rem;
+  }
 }
