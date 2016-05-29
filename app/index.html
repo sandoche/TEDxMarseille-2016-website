@@ -23,7 +23,7 @@
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#TEDx">
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -37,7 +37,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-      <nav class="navbar navbar-default navbar-fixed-top normal" role="navigation"  id="TEDx">
+      <nav class="navbar navbar-default navbar-fixed-top normal" role="navigation"  id="navbarSpy">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -53,13 +53,13 @@
             <li class="dropdown navbar-form-2">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">À propos<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-              <li><a href="#theme">Le thème</a></li>
-              <li><a href="#what">TEDx</a></li>
-              <li><a href="#where">Le lieu</a></li>
-              <li><a href="#team">L'équipe</a></li>
-              <li><a href="#partners">Les partenaires</a></li>
-              <li><a href="#social">Réseaux sociaux</a></li>
-              <li><a href="#map">Carte</a></li>
+                <li><a href="#theme" id="1">Le thème</a></li>
+                <li><a href="#what" id="2">TEDx</a></li>
+                <li><a href="#where" id="3">Le lieu</a></li>
+                <li><a href="#team" id="4">L'équipe</a></li>
+                <li><a href="#partners" id="5">Les partenaires</a></li>
+                <li><a href="#social" id="6">Réseaux sociaux</a></li>
+                <li><a href="#map" id="7">Carte</a></li>
               </ul>
             </li>
             <li>
