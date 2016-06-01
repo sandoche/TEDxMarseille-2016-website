@@ -3,9 +3,9 @@ var geocoder;
 	function initialize() {
 
 	  geocoder = new google.maps.Geocoder();
-	  var center = new google.maps.LatLng(43.300000, 5.400000);
+	  var center = new google.maps.LatLng(43.2942778, 5.3559142);
 	  var mapOptions = {
-		zoom: 8,
+		zoom: 14,
 		center: center,
 			scrollwheel: false,
 			panControl: false,
@@ -21,7 +21,7 @@ var geocoder;
 	var markers = [];
 
 
-	var myLatlng = new google.maps.LatLng(43.300000, 5.400000);
+	var myLatlng = new google.maps.LatLng(43.2942778, 5.3559142);
 	  var marker = new google.maps.Marker({
 		  position: myLatlng,
 		  map: map,
