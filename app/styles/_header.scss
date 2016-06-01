@@ -1,9 +1,38 @@
 header {
     height: 100vh;
     padding-top: 80px;
-    background-color: #fff !important;
-    background-image: url("../images/header.png");
+    background-image:url("../images/bg.png");
+    background-color: #fff;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    h1 {
+      background-color: #333;
+      color: #fff;
+      display: inline-block;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      font-size: 5rem;
+      margin-top: 30vh;
+    }
+
+    p {
+      margin-top: 5px;
+      margin-bottom: 30px;
+      font-size: 3rem;
+      margin-right: 10px;
+    }
+
+    .emphasis {
+      font-size: 4rem;
+      color: $red;
+      font-weight: 900;
+      position: relative;
+      top: 5px;
+    }
+
 }
+
 
 .header-title {
   padding-top: 75vh;
