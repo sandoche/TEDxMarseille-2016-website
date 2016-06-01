@@ -252,7 +252,7 @@
           <div class="col-content gray">
             <h2>Les partenaires</h2>
             <p>Pour devenir partenaire cliquez sur le bouton ci-dessous</p>
-            <a href="mailto:tedxmarseille@hotmail.com" class="btn btn-danger btn-partner">Devenir partenaire</a>
+            <a onClick="doorbell.show();" class="btn btn-danger btn-partner">Devenir partenaire</a>
           </div>
           <div class="col-spacer gray">
           </div>
@@ -295,7 +295,7 @@
               <li><a href="#partners">Les partenaires</a></li>
   						<li><a href="#"  data-backdrop="static"
      data-keyboard="false" data-toggle="modal" data-target="#registerModal">Réserver</a></li>
-  						<li><a target="_blank" href="mailto:tedxmarseille@hotmail.com">Contact</a></li>
+  						<li><a target="_blank" onClick="doorbell.show();">Contact</a></li>
   					</ul>
   				</div>
   				<div class="col-md-4">
@@ -352,6 +352,18 @@
       ga('send', 'pageview');
     </script>
 
+    <script type="text/javascript">
+    window.doorbellOptions = {
+        appKey: 'VZxVyM1nr3iTRPJu5rTGc14qO1UfPTDDbRf6gNNBUav5EiLDP6pjVjKRxpTHumkS'
+    };
+    (function(w, d, t) {
+        var hasLoaded = false;
+        function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/3795?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
+        if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
+        if (d.readyState == 'complete') { l(); }
+    }(window, document, 'script'));
+    </script>
+
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
@@ -380,5 +392,6 @@
     <script src="scripts/main.js"></script>
     <script src="scripts/map.js"></script>
     <!-- endbuild -->
+
   </body>
 </html>
