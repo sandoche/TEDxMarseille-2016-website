@@ -15,7 +15,7 @@ $('[data-spy="scroll"]').each(function () {
 })
 
 $('#navbarSpy').on('activate.bs.scrollspy', function () {
-  var currentItem = $(".nav li ul li.active > a").attr('id');
+  var currentItem = $('.nav li ul li.active > a').attr('id');
   if(currentItem < 3) {
     $('.zone').removeClass('color-2');
     $('.zone').addClass('color-1');
