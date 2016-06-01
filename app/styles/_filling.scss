@@ -84,10 +84,17 @@
 // Filling
 
 .fill-color {
-  height: 150px;
+  height: 300px;
   width: 184px;
 }
 
+.medium-fill-color {
+  height: 400px;
+}
+
+.large-fill-color {
+  height: 800px;
+}
 
 .fill-gray {
   @extend .fill-color;
