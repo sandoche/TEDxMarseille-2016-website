@@ -18,7 +18,7 @@
   }
 
   &:active, &:focus, &:active &:focus {
-    background-color: rgba($gray-dark, 1 !important);
+    background-color: rgba($gray-dark, 1) !important;
     color: $white !important;
     border-color: $gray-dark !important;
   }
