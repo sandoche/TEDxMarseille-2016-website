@@ -1,0 +1,38 @@
+.btn-round {
+  border-radius: 20px;
+  background-color: rgba(black, 0);
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.btn-round-black {
+  @extend .btn-round;
+  border-color: $gray-dark;
+  color: $gray-dark;
+
+  &:hover {
+    background-color: rgba($gray-dark, 0.8);
+    color: $white;
+    border-color: $gray-dark;
+  }
+
+  &:active, &:focus, &:active &:focus {
+    background-color: rgba($gray-dark, 1 !important);
+    color: $white !important;
+    border-color: $gray-dark !important;
+  }
+}
+
+
+
+.btn-round-white {
+  @extend .btn-round;
+  border-color: $white;
+  color: $white;
+
+  &:hover {
+    background-color: rgba($white, 0.8);
+    color: $gray-dark;
+  }
+}
