@@ -13,6 +13,46 @@
   width: 100%;
 }
 
+
+.surprise {
+  height: 210px;
+  padding: 20px;
+  text-align: center;
+
+  h3 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-top: 40px;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+
+.surprise-1 {
+  background: url(../images/speaker.png);
+  background-size: cover;
+  color: $gray-dark;
+}
+
+.surprise-2 {
+  background: url(../images/after_party.png);
+  background-size: cover;
+  color: $white;
+}
+
+.suprise-col-1 {
+  padding-right: 7.5px;
+}
+
+.suprise-col-2 {
+  padding-left: 7.5px;
+}
+
 footer {
   background-color: $gray-darker;
 
