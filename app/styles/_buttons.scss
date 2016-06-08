@@ -6,6 +6,13 @@
   font-size: 1.2rem;
 }
 
+.btn-round-simple {
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
 .btn-round-black {
   @extend .btn-round;
   border-color: $gray-dark;

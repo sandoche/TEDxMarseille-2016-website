@@ -6,3 +6,28 @@ header {
     background-size: cover;
     background-position: center;
 }
+
+.bloc-title {
+  margin-top: 10vh;
+  text-transform: uppercase;
+  background-color: rgba($light-green, 0.9);
+  padding: 30px;
+  border-radius: 1000px;
+  color: $red;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.title-md {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: -15px;
+
+}
+
+h1 {
+  font-size: 2.9rem;
+  margin-bottom: 5vh;
+}
