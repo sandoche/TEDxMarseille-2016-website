@@ -98,6 +98,10 @@ border-color: transparent;
     color: #FFF !important;
 }
 
+i {
+  margin-top: 10px;
+}
+
 height: 85px;
 -webkit-transition: 0.5s;
 -moz-transition: 0.5s;
@@ -129,6 +133,9 @@ padding: 0px !important;
   background-color: $white;
   border-color: #e7e7e7;
 
+  i {
+    margin-top: 4px;
+  }
 
   .navbar-default .navbar-nav > li > a {
     color: rgb(119, 119, 119);

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Roboto:900,400);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Roboto:900,400,300);
 
 h2 {
     font-family: 'Roboto', sans-serif;
@@ -7,9 +7,9 @@ h2 {
 
 h2 {
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 4rem;
   color: $white;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   .background-text {
     background-color: $green;
@@ -22,12 +22,10 @@ h2 {
 
 
 
-h1, p {
-  font-family: 'Crimson Text', serif;
-}
-
-p {
+p {
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
+  font-weight: 300;
 }
 
 .lower {
