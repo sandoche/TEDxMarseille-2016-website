@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Roboto:900,400);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Roboto:900,400,300);
 
 h2 {
     font-family: 'Roboto', sans-serif;
@@ -23,8 +23,9 @@ h2 {
 
 
 p {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
+  font-weight: 300;
 }
 
 .lower {
