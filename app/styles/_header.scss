@@ -18,6 +18,11 @@ header {
   background-color: #9dd4e0;
 }
 
+.layerText {
+  @extend .layer;
+  padding-top: 10vh;
+}
+
 .layer0 {
   @extend .layer;
   background-image:url("../images/layer0.png");
@@ -40,7 +45,6 @@ header {
 
 .layer4 {
   @extend .layer;
-  padding-top: 10vh;
   background-image:url("../images/layer4.png");
 }
 
