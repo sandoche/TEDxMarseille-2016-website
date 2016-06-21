@@ -5,13 +5,17 @@ header {
 
 .layer {
   height: 100vh;
-  padding-top: 80px;
   background-position: bottom center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
 	position: fixed;
 	z-index: -1;
+}
+
+.layerBg {
+  @extend .layer;
+  background-color: #9dd4e0;
 }
 
 .layer0 {
