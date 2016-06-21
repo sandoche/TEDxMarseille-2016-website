@@ -1,11 +1,39 @@
 header {
     height: 100vh;
-    padding-top: 80px;
-    background-image:url("../images/headerbg.png");
-    background-color: #fff;
-    background-size: cover;
-    background-position: center;
 }
+
+
+.layer {
+  height: 100vh;
+  padding-top: 80px;
+  background-position: bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+.layer0 {
+  @extend .layer;
+  background-image:url("../images/layer0.png");
+}
+
+.layer1 {
+  @extend .layer;
+  background-image:url("../images/layer1.png");
+}
+
+.layer2 {
+  @extend .layer;
+  background-image:url("../images/layer2.png");
+}
+
+.layer3 {
+  @extend .layer;
+  background-image:url("../images/layer3.png");
+}
+
 
 .bloc-title {
   margin-top: 10vh;
