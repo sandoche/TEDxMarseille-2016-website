@@ -16,15 +16,17 @@ $('[data-spy="scroll"]').each(function () {
 
 $('#navbarSpy').on('activate.bs.scrollspy', function () {
   var currentItem = $('.nav li ul li.active > a').attr('id');
-  if(currentItem < 3) {
-    $('.zone').removeClass('color-2');
+  if(currentItem & 1) {
     $('.zone').addClass('color-1');
-    $('.background-text').removeClass('color-2-text');
+    $('.zone').removeClass('color-2');
     $('.background-text').addClass('color-1-text');
+    $('.background-text').removeClass('color-2-text');
   } else {
-    $('.zone').removeClass('color-1');
     $('.zone').addClass('color-2');
-    $('.background-text').removeClass('color-1-text');
+    $('.zone').removeClass('color-1');
     $('.background-text').addClass('color-2-text');
+    $('.background-text').removeClass('color-1-text');
   }
 })
+
+$.stellar();

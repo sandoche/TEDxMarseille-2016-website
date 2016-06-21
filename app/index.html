@@ -76,22 +76,32 @@
       </div>
     </nav>
 
-    <header>
+  <header>
+    <div class="layerBg" data-stellar-ratio="1"></div>
+    <div class="layer0" data-stellar-ratio="0.7"></div>
+    <div class="layer1" data-stellar-ratio="0.2"></div>
+    <div class="layer2" data-stellar-ratio="0.3"></div>
+    <div class="layer3" data-stellar-ratio="0.6"></div>
+    <div class="layerText" data-stellar-ratio="0.8">
       <div class="container">
         <div>
           <div class="row">
-            <div class="col-md-5 col-md-offset-1 text-center bloc-title">
+            <div class="col-sm-8 col-md-5 col-md-offset-1 text-center bloc-title">
               <p class="title-xs">Le Samedi 29 Octobre 2016</p>
               <p class="title">Au palais du pharo</p>
               <p class="title-md">À Marseille</p>
               <h1>Le pouvoir des idées</h1>
-              <button type="button" class="btn btn-danger btn-lg btn-round-simple" data-backdrop="static"
+              <button type="button" class="btn btn-danger btn-lg btn-round-simple btn-parallax" data-backdrop="static"
        data-keyboard="false" data-toggle="modal" data-target="#registerModal">Réserver dès maintenant</button>
             </div>
           </div>
         </di>
       </div>
-    </header>
+    </div>
+  </div>
+  <div class="layer4" data-stellar-ratio="0.9"></div>
+  </header>
+
 
     <section id="theme">
         <div class="row-flexbox zone">
@@ -253,7 +263,7 @@
         </div>
     </section>
 
-    <section class="social" id="social">
+    <section class="social hidden-xs" id="social">
         <div class="container">
           <div class="row">
             <h2 class="text-center">Suivez-nous</h2>
@@ -289,7 +299,7 @@
               <li><a href="#partners">Les partenaires</a></li>
   						<li><a href="#"  data-backdrop="static"
      data-keyboard="false" data-toggle="modal" data-target="#registerModal">Réserver</a></li>
-  						<li><a target="_blank" onClick="doorbell.show();">Contact</a></li>
+  						<li><a href="#" target="_blank" onClick="doorbell.show();">Contact</a></li>
   					</ul>
   				</div>
   				<div class="col-md-4">
@@ -309,7 +319,7 @@
 
   			<div class="row copyright">
   				<p class="text-center">
-  					TEDxMarseille | This independent TEDx event is operated under license from TED | Designed with love by <a class="author" href="http://www.sandoche.com">Sandoche</a>
+  					TEDxMarseille | This independent TEDx event is operated under license from TED | Designed with love by <a target="_blank" class="author" href="http://www.sandoche.com">Sandoche</a>
   				</p>
   			</div>
   		</div>
@@ -381,7 +391,7 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/smooth-scroll/smooth-scroll.js"></script>
+    <script src="/bower_components/jquery.stellar/jquery.stellar.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

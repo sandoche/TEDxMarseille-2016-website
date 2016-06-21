@@ -1,10 +1,52 @@
 header {
     height: 100vh;
-    padding-top: 80px;
-    background-image:url("../images/headerbg.png");
-    background-color: #fff;
-    background-size: cover;
-    background-position: center;
+}
+
+
+.layer {
+  height: 100vh;
+  background-position: bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+.layerBg {
+  @extend .layer;
+  background-color: $green;
+}
+
+.layerText {
+  @extend .layer;
+  padding-top: 10vh;
+  z-index: 1;
+}
+
+.layer0 {
+  @extend .layer;
+  background-image:url("../images/layer0.png");
+}
+
+.layer1 {
+  @extend .layer;
+  background-image:url("../images/layer1.png");
+}
+
+.layer2 {
+  @extend .layer;
+  background-image:url("../images/layer2.png");
+}
+
+.layer3 {
+  @extend .layer;
+  background-image:url("../images/layer3.png");
+}
+
+.layer4 {
+  @extend .layer;
+  background-image:url("../images/layer4.png");
 }
 
 .bloc-title {
@@ -13,7 +55,7 @@ header {
   background-color: rgba($light-green, 0.9);
   padding: 30px;
   border-radius: 1000px;
-  color: $red;
+  color: $gray-dark;
 }
 
 .title {
@@ -29,6 +71,7 @@ header {
   font-size: 4.8rem;
   font-weight: bold;
   margin-top: -8px;
+  color: $red;
 }
 
 h1 {
