@@ -55,7 +55,7 @@ header {
   background-color: rgba($light-green, 0.9);
   padding: 30px;
   border-radius: 1000px;
-  color: $red;
+  color: $gray-dark;
 }
 
 .title {
@@ -71,6 +71,7 @@ header {
   font-size: 4.8rem;
   font-weight: bold;
   margin-top: -8px;
+  color: $red;
 }
 
 h1 {
