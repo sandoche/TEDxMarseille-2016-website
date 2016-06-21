@@ -34,6 +34,10 @@ header {
   background-image:url("../images/layer3.png");
 }
 
+.layer4 {
+  @extend .layer;
+  background-image:url("../images/layer4.png");
+}
 
 .bloc-title {
   margin-top: 10vh;

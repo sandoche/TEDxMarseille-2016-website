@@ -28,3 +28,5 @@ $('#navbarSpy').on('activate.bs.scrollspy', function () {
     $('.background-text').addClass('color-2-text');
   }
 })
+
+$.stellar();
