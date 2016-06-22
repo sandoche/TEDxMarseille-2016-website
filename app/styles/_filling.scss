@@ -123,3 +123,25 @@
 .white {
   background-color: $white;
 }
+
+
+.bg {
+  background-position: middle center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-right {
+    @extend .bg;
+    background-image: url("../images/bg_element_right.png");
+}
+
+.bg-right-2 {
+    @extend .bg;
+    background-image: url("../images/bg_element_right_2.png");
+}
+
+.bg-left {
+    @extend .bg;
+    background-image: url("../images/bg_element_left.png");
+}
