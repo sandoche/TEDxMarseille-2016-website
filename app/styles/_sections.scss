@@ -53,6 +53,20 @@
   padding-left: 7.5px;
 }
 
+
+@media (max-width: $screen-xs-max) {
+  .suprise-col-1 {
+    padding-right: 15px;
+  }
+
+  .suprise-col-2 {
+    padding-left: 15px;
+  }
+
+}
+
+
+
 footer {
   background-color: $gray-darker;
 

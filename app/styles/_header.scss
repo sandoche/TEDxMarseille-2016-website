@@ -79,3 +79,44 @@ h1 {
   margin-bottom: 30px;
   margin-top: -2px;
 }
+
+@media (max-width: $screen-xs-max) {
+
+  .layer-mobile {
+    height: 100vh;
+    background-position: bottom center;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	width: 100%;
+  	position: fixed;
+  	z-index: -1;
+    background-image:url("../images/headerbg.png");
+  }
+
+  .layerBg, .layer0, .layer1, .layer2, .layer3, .layer4 {
+    display: none !important;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+
+  .title-xs {
+    font-size: 1.4rem;
+  }
+
+  .title-md {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-top: -8px;
+    color: $red;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+    margin-top: -2px;
+  }
+
+}
