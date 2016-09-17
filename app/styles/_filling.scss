@@ -89,7 +89,7 @@
 }
 
 .medium-fill-color {
-  height: 400px;
+  height: 600px;
 }
 
 .large-fill-color {
@@ -101,9 +101,19 @@
   background-color: $gray;
 }
 
+.fill-gray-large {
+  @extend .medium-fill-color;
+  background-color: $gray;
+}
+
 .fill-gray-space {
   @extend .fill-color;
   background-image: url("../images/00greyspace.png");
+}
+
+.fill-gray-space-large {
+    @extend .medium-fill-color;
+    background-image: url("../images/00greyspace.png");
 }
 
 .fill-white {
