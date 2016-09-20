@@ -74,9 +74,25 @@
     a {
       width: calc(33% - 6px);
     }
+
+    .xl {
+      width: calc(60% - 6px);
+    }
+
   }
 }
 
+.gallery-large-center {
+  @media screen and (min-width: 50em) {
+
+    align-items: center;
+    justify-content: center;
+
+    a {
+      width: calc(33% - 6px);
+    }
+  }
+}
 
 .gallery-medium {
   @media screen and (min-width: 50em) {
