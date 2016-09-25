@@ -54,6 +54,15 @@
 }
 
 
+.partners {
+  h3 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-top: 40px;
+  }
+}
+
 @media (max-width: $screen-xs-max) {
   .suprise-col-1 {
     padding-right: 15px;
