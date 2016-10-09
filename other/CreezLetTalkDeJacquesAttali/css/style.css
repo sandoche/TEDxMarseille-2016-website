@@ -1,0 +1,68 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,900';
+
+body {
+  padding-top: 50px;
+
+  background-color: #9DD4E0;
+    background-image: url(../img/layer0.png);
+    background-size: cover; /* version standardisée */
+    background-position: bottom; 
+  padding-bottom: 50px;
+}
+
+h1 {
+    background-color: #e3382a;
+    padding: 5px 20px;
+    font-family: Roboto,sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #fff;
+    display: inline-block;
+    margin-top: 0;
+}
+
+h2 {
+  font-family: Roboto,sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+p {
+  font-family: Roboto,sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #197084;
+}
+
+.logo {
+  height: 40%;
+  width: 40%;
+}
+
+.block-blue {
+  background-color: #DFF1F4;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+blockquote {
+  font-size: 14px;
+  border-color: #c7dbde;
+  margin-bottom: 40px;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #e3382a;
+  border-color: #d72a1c;
+  border-radius: 0;;
+  text-transform: uppercase;
+  padding: 9px 20px;
+  font-size: 1.5rem;
+}
+
+.form-control {
+  border-radius: 0;
+}
