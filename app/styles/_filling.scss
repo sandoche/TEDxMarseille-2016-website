@@ -89,7 +89,7 @@
 }
 
 .medium-fill-color {
-  height: 900px;
+  height: 400px;
 }
 
 .large-fill-color {
@@ -102,7 +102,7 @@
 }
 
 .fill-gray-large {
-  @extend .medium-fill-color;
+  @extend .large-fill-color;
   background-color: $gray;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .fill-gray-space-large {
-    @extend .medium-fill-color;
+    @extend .large-fill-color;
     background-image: url("../images/00greyspace.png");
 }
 
@@ -123,6 +123,11 @@
 
 .fill-white-space {
   @extend .fill-color;
+  background-image: url("../images/00whitespace.png");
+}
+
+.fill-white-space-medium {
+  @extend .medium-fill-color;
   background-image: url("../images/00whitespace.png");
 }
 

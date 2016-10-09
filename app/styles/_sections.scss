@@ -126,3 +126,48 @@ footer {
 
 
 }
+
+
+
+
+
+.coach {
+  height: 210px;
+  padding: 20px;
+  text-align: center;
+
+  h3 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-top: 210px;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.0rem;
+    margin-bottom: 0;
+  }
+  a {
+    margin-top: 10px;
+  }
+}
+
+.coach-1 {
+  background: url(../images/coach1.jpg);
+  background-size: cover;
+  color: $gray-dark;
+}
+
+.coach-2 {
+  background: url(../images/coach2.jpg);
+  background-size: cover;
+  color: $gray-dark;
+}
+
+.coach-3 {
+  background: url(../images/coach3.jpg);
+  background-size: cover;
+  color: $gray-dark;
+}
