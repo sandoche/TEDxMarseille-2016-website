@@ -2,11 +2,11 @@
 
 body {
   padding-top: 50px;
-
   background-color: #9DD4E0;
-    background-image: url(../img/layer0.png);
-    background-size: cover; /* version standardisée */
-    background-position: bottom; 
+  background-image: url(../img/layer0.png);
+  background-size: contain; /* version standardisée */
+  background-position: bottom;
+  background-repeat: no-repeat;
   padding-bottom: 50px;
 }
 
@@ -42,7 +42,7 @@ p {
 }
 
 .block-blue {
-  background-color: #DFF1F4;
+  background-color: rgba(223,241,244,0.9);
   border-radius: 30px;
   padding: 30px;
 }
@@ -51,6 +51,10 @@ blockquote {
   font-size: 14px;
   border-color: #c7dbde;
   margin-bottom: 40px;
+}
+
+blockquote h2 {
+  margin-top: 0;
 }
 
 .btn-danger {
