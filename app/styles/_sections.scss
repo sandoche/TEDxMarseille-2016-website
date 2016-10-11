@@ -129,9 +129,7 @@ footer {
 
 
 
-.no-crop {
-  height: 600px;
-}
+
 
 .coach {
   height: 210px;
@@ -172,4 +170,23 @@ footer {
   background: url(../images/coach3.jpg);
   background-size: cover;
   color: $gray-dark;
+}
+
+
+@media (max-width: $screen-xs-max) {
+
+  .coach {
+    height: 90px;
+    padding: 5px;
+
+      h3 {
+        margin-top: 100px;
+        font-size: 1.6rem;
+      }
+  }
+
+  .no-crop {
+    height: 200px;
+  }
+
 }
