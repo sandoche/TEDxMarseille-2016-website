@@ -10,7 +10,7 @@ var RYPP = (function($, undefined) {
   function Rypp(el, api_key, options) {
 
     if (typeof api_key === 'undefined') {
-      console.log("Youtube API V3 requires a valid API KEY.\nFollow the instructions at: https://developers.google.com/youtube/v3/getting-started");
+      console.log('Youtube API V3 requires a valid API KEY.\nFollow the instructions at: https://developers.google.com/youtube/v3/getting-started');
       return false;
     }
 
