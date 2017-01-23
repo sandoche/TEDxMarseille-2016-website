@@ -8,6 +8,11 @@ $( document ).ready(function() {
         $('.navbar').removeClass('shrink'); }
     });
 
+    var api_key = 'AIzaSyCmetv5ZMPHpEekJHXpfrkgvF2TTyRFar4';
+    $('.RYPP').rypp( api_key , {
+      autoplay: false
+    });
+
 });
 
 $('[data-spy="scroll"]').each(function () {
